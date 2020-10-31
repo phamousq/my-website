@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Student',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Discovering ways to develop curiosity and learn more. About <code>everything</code>.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Creator',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Working on being more creative and finding outlets for expression and communication.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Enthusiast',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Bringing excitement and energy into the world. One interaction at a time.
       </>
     ),
   },
@@ -59,21 +56,47 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      // title={`Hello from ${siteConfig.title}`}
+      title={`Hello from Me!`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h1 className="hero__title">{"Hi, I'm Quinton!"}</h1>
+          <p className="hero__subtitle">{"Sharing knowledge and experiences from my own life"}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl('docs/startHere')}
+              style={{ marginLeft: ".5em", width: "216.63px" }}>
               Get Started
             </Link>
+            {/* <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/')}
+              style={{ marginLeft: ".5em", width: "216.63px" }}>
+              Knowledge Base
+            </Link>
+            <a
+              class="button button--secondary button--outline button--lg"
+              href="blog/"
+              style={{ marginLeft: ".5em", width: "216.63px" }}
+            >
+              Blog
+            </a> */}
+            {/* <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('blog/')}>
+              Blog
+            </Link> */}
           </div>
         </div>
       </header>
