@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Student',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/undraw_starry_window_ppm0.svg',
     description: (
       <>
         Discovering ways to develop curiosity and learn more. About <code>everything</code>.
@@ -18,7 +18,7 @@ const features = [
   },
   {
     title: 'Creator',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/undraw_code_thinking_1jeh.svg',
     description: (
       <>
         Working on being more creative and finding outlets for expression and communication.
@@ -27,7 +27,7 @@ const features = [
   },
   {
     title: 'Enthusiast',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/undraw_having_fun_iais.svg',
     description: (
       <>
         Bringing excitement and energy into the world. One interaction at a time.
@@ -58,7 +58,7 @@ function Home() {
     <Layout
       // title={`Hello from ${siteConfig.title}`}
       title={`Hello from Me!`}
-      description="Description will go into a meta tag in <head />">
+      description="">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{"Hi, I'm Quinton!"}</h1>

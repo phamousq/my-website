@@ -3,7 +3,7 @@ id: aboutMe
 title: About Me
 ---
 
-<img src="../static/img/photo.jpg" />
+<img src="static/img/photo.jpg" />
 
 <div>
   Hey! My name is Quinton and I'm a rising Senior at the University of Texas at
