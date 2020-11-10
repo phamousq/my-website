@@ -7,7 +7,8 @@ title: Start Here
 
 <!-- ![pic of me](../static/img/headshot/photo.jpg) -->
 
-<center><img src="/static/img/headshot/photo.jpg" width="60%" class="center"/></center>
+<center><img src="../static/img/headshot/photo.jpg" width="60%" class="center"/></center>
+<center><img src="../static/img/favicon.ico" class="center"/></center>
 
 ####
 
