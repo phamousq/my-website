@@ -7,8 +7,8 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "quintonpham", // Usually your GitHub org/user name.
+  projectName: "my-website", // Usually your repo name.
   themeConfig: {
     // announcementBar: {
     //   id: "WORK IN PROGRESS", // Any value that will identify this message.
@@ -70,59 +70,59 @@ module.exports = {
           ],
         },
       ]
-    }
-    // footer: {
-    //   copyright: `Copyright © ${new Date().getFullYear()} Built with Docusaurus.`,
-    // },
-    // footer: {
-    //   style: "dark",
-    //   links: [
-    //     {
-    //       title: "Docs",
-    //       items: [
-    //         {
-    //           label: "Style Guide",
-    //           to: "docs/",
-    //         },
-    //         {
-    //           label: "Second Doc",
-    //           to: "docs/doc2/",
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       title: "Community",
-    //       items: [
-    //         {
-    //           label: "Stack Overflow",
-    //           href: "https://stackoverflow.com/questions/tagged/docusaurus",
-    //         },
-    //         {
-    //           label: "Discord",
-    //           href: "https://discordapp.com/invite/docusaurus",
-    //         },
-    //         {
-    //           label: "Twitter",
-    //           href: "https://twitter.com/docusaurus",
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       title: "More",
-    //       items: [
-    //         {
-    //           label: "Blog",
-    //           to: "blog",
-    //         },
-    //         {
-    //           label: "GitHub",
-    //           href: "https://github.com/facebook/docusaurus",
-    //         },
-    //       ],
-    //     },
-    //   ],
-    //   copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    // },
+    },
+    footer: {
+      copyright: `Copyright © ${new Date().getFullYear()} Built with Docusaurus.`,
+    },
+    footer: {
+      style: "dark",
+      // links: [
+      //   {
+      //     title: "Docs",
+      //     items: [
+      //       {
+      //         label: "Style Guide",
+      //         to: "docs/",
+      //       },
+      //       {
+      //         label: "Second Doc",
+      //         to: "docs/doc2/",
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: "Community",
+      //     items: [
+      //       {
+      //         label: "Stack Overflow",
+      //         href: "https://stackoverflow.com/questions/tagged/docusaurus",
+      //       },
+      //       {
+      //         label: "Discord",
+      //         href: "https://discordapp.com/invite/docusaurus",
+      //       },
+      //       {
+      //         label: "Twitter",
+      //         href: "https://twitter.com/docusaurus",
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: "More",
+      //     items: [
+      //       {
+      //         label: "Blog",
+      //         to: "blog",
+      //       },
+      //       {
+      //         label: "GitHub",
+      //         href: "https://github.com/facebook/docusaurus",
+      //       },
+      //     ],
+      //   },
+      // ],
+      copyright: `Copyright © ${new Date().getFullYear()} Quinton Pham. Built with Docusaurus.`,
+    },
   },
   presets: [
     [
@@ -130,7 +130,10 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          routeBasePath: '/'
+          routeBasePath: '/',
+          showLastUpdateTime: true,
+          include: ['**/*.md', '**/*.mdx'],
+          editUrl:'https://github.com/phamousq/my-website/blob/master'
         },
         blog: false,
         theme: {
