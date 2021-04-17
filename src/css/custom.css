@@ -24,9 +24,38 @@
   --ifm-code-font-size: 95%;
 }
 
+html[data-theme='dark'] {
+  --ifm-color-feedback-background: #f0f8ff;
+}
+
+/* p {
+  width: clamp(45ch, 75%, 125ch)
+} */
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+#min-width {
+  display: block;
+  min-width: 300px;
+  max-width: 300px;
+  padding: 2rem;
+}
+
+/* .flex-container p {
+  max-width: clamp(50ch, 60%, 100ch);
+} */
+
+@media(min-width:768px){
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    padding-top: 3rem;
+  }
 }

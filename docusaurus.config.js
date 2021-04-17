@@ -1,124 +1,122 @@
+/** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'QP',
-  tagline: 'The tagline of my site',
-  url: 'https://quintonpham.me',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  title: "QP",
+  tagline: "The tagline of my site",
+  url: "https://quintonpham.me",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "facebook", // Usually your GitHub org/user name.
+  projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
-    googleAnalytics: {
-      trackingID: 'G-YV9N16N1Y2',
-      // Optional fields.
-      // anonymizeIP: true, // Should IPs be anonymized?
-    },
     // announcementBar: {
-    //   id: 'WORK IN PROGRESS', // Any value that will identify this message.
+    //   id: "WORK IN PROGRESS", // Any value that will identify this message.
     //   content:
-    //     'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
-    //   backgroundColor: '#fafbfc', // Defaults to `#fff`.
-    //   textColor: '#091E42', // Defaults to `#000`.
+    //     "We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>",
+    //   backgroundColor: "#fafbfc", // Defaults to `#fff`.
+    //   textColor: "#091E42", // Defaults to `#000`.
     // },
-
     colorMode: {
-      defaultMode: 'dark', // 'light or 'dark'
+      respectPrefersColorScheme: true,
+      defaultMode: 'dark', // "light or "dark"
       disableSwitch: true, // true or false: allow users to switch between light and dark modes
     },
     navbar: {
-      hideOnScroll: true,
-      title: 'Quinton Pham',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/headshot/photo.jpg',
-      },
+      hideOnScroll: false,
+      title: "Quinton Pham",
+      // logo: {
+      //   alt: "My Site Logo",
+      //   src: "img/headshot/photo.jpg",
+      // },
       items: [
         // LEFT
-        {
-          to: 'docs/startHere',
-          activeBasePath: 'docs',
-          label: 'Knowledge Base',
-          position: 'left',
-        },
-        {
-          to: 'blog', 
-          label: 'Blog', 
-          position: 'left'
-        },
+        // {
+        //   type: "doc",
+        //   docId:"aboutMe",
+        //   label: "Info Base",
+        //   position: "left",
+        // },
+        // {
+        //   to: "blog", 
+        //   label: "Blog", 
+        //   position: "right"
+        // },
 
         // RIGHT
+        
         {
-          label: 'Spotify',
-          to: 'https://open.spotify.com/user/1261246325?si=xH4QRQDEQ0KzZ8LxZyDqGw',
-          position: 'right',
+          label: "Spotify",
+          to: "https://open.spotify.com/user/1261246325?si=xH4QRQDEQ0KzZ8LxZyDqGw",
+          position: "right",
         },
         {
-          label: 'Instagram',
-          to: 'https://www.instagram.com/quintonlpham/',
-          position: 'right',
+          label: "Instagram",
+          to: "https://www.instagram.com/quintonlpham/",
+          position: "right",
         },
         {
-          label: 'Contact',
-          position: 'right',
+          label: "Contact",
+          position: "right",
           items: [
             {
-              to: 'https://open.spotify.com/user/1261246325?si=xH4QRQDEQ0KzZ8LxZyDqGw', 
-              label: 'Email',
+              to: "https://open.spotify.com/user/1261246325?si=xH4QRQDEQ0KzZ8LxZyDqGw", 
+              label: "Email",
             },
             {
-              to: 'https://calendly.com/quintonpham/meet-and-greet', 
-              label: 'Calendly',
+              to: "https://calendly.com/quintonpham/meet-and-greet", 
+              label: "Calendly",
             },
           ],
         },
-      ],
-    },
+      ]
+    }
     // footer: {
     //   copyright: `Copyright © ${new Date().getFullYear()} Built with Docusaurus.`,
     // },
     // footer: {
-    //   style: 'dark',
+    //   style: "dark",
     //   links: [
     //     {
-    //       title: 'Docs',
+    //       title: "Docs",
     //       items: [
     //         {
-    //           label: 'Style Guide',
-    //           to: 'docs/',
+    //           label: "Style Guide",
+    //           to: "docs/",
     //         },
     //         {
-    //           label: 'Second Doc',
-    //           to: 'docs/doc2/',
+    //           label: "Second Doc",
+    //           to: "docs/doc2/",
     //         },
     //       ],
     //     },
     //     {
-    //       title: 'Community',
+    //       title: "Community",
     //       items: [
     //         {
-    //           label: 'Stack Overflow',
-    //           href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+    //           label: "Stack Overflow",
+    //           href: "https://stackoverflow.com/questions/tagged/docusaurus",
     //         },
     //         {
-    //           label: 'Discord',
-    //           href: 'https://discordapp.com/invite/docusaurus',
+    //           label: "Discord",
+    //           href: "https://discordapp.com/invite/docusaurus",
     //         },
     //         {
-    //           label: 'Twitter',
-    //           href: 'https://twitter.com/docusaurus',
+    //           label: "Twitter",
+    //           href: "https://twitter.com/docusaurus",
     //         },
     //       ],
     //     },
     //     {
-    //       title: 'More',
+    //       title: "More",
     //       items: [
     //         {
-    //           label: 'Blog',
-    //           to: 'blog',
+    //           label: "Blog",
+    //           to: "blog",
     //         },
     //         {
-    //           label: 'GitHub',
-    //           href: 'https://github.com/facebook/docusaurus',
+    //           label: "GitHub",
+    //           href: "https://github.com/facebook/docusaurus",
     //         },
     //       ],
     //     },
@@ -128,22 +126,17 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          showLastUpdateTime: true,
+          sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: '/'
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
+        blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
-    ],
-  ],
+          customCss: require.resolve("./src/css/custom.css"),
+        }
+      }
+    ]
+  ]
 };
