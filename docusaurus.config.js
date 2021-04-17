@@ -2,7 +2,7 @@
 module.exports = {
   title: "QP",
   tagline: "The tagline of my site",
-  url: "https://quintonpham.me",
+  url: "https://quintonpham.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
