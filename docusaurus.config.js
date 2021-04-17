@@ -25,10 +25,10 @@ module.exports = {
     navbar: {
       hideOnScroll: false,
       title: "Quinton Pham",
-      // logo: {
-      //   alt: "My Site Logo",
-      //   src: "img/headshot/photo.jpg",
-      // },
+      logo: {
+        alt: "My Site Logo",
+        src: "img/headshot/photo.jpg",
+      },
       items: [
         // LEFT
         // {
@@ -45,14 +45,19 @@ module.exports = {
 
         // RIGHT
         
+        // {
+        //   label: "Spotify",
+        //   to: "https://open.spotify.com/user/1261246325?si=xH4QRQDEQ0KzZ8LxZyDqGw",
+        //   position: "right",
+        // },
+        // {
+        //   label: "Instagram",
+        //   to: "https://www.instagram.com/quintonlpham",
+        //   position: "right",
+        // },
         {
-          label: "Spotify",
-          to: "https://open.spotify.com/user/1261246325?si=xH4QRQDEQ0KzZ8LxZyDqGw",
-          position: "right",
-        },
-        {
-          label: "Instagram",
-          to: "https://www.instagram.com/quintonlpham/",
+          label: "GitHub",
+          to: "https://github.com/phamousq/my-website",
           position: "right",
         },
         {
@@ -133,7 +138,7 @@ module.exports = {
           routeBasePath: '/',
           showLastUpdateTime: true,
           include: ['**/*.md', '**/*.mdx'],
-          editUrl:'https://github.com/phamousq/my-website/blob/master'
+          editUrl:'https://github.com/phamousq/my-website/blob/master',
         },
         blog: false,
         theme: {

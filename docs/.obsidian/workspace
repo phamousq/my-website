@@ -1,0 +1,91 @@
+{
+  "main": {
+    "id": "730e17702ccff229",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f4c40ac31be68ae",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "contentRoadMap.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "14e06b96932525e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "2668f6f686a67ccf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d156241e4181306d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "87fe390a5c4556d3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "66e6ad01666223af",
+    "type": "split",
+    "children": [
+      {
+        "id": "7213f96de4393daf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27d8ab48c04fe506",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "contentRoadMap.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "contentRoadMap.md"
+  ]
+}
