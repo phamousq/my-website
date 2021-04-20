@@ -1,25 +1,15 @@
 {
   "main": {
-    "id": "730e17702ccff229",
+    "id": "c58eb4797f2d2025",
     "type": "split",
     "children": [
       {
-        "id": "1f4c40ac31be68ae",
-        "type": "leaf",
-        "state": {
-          "type": "image",
-          "state": {
-            "file": "img/photo.jpg"
-          }
-        }
-      },
-      {
-        "id": "7bbd14f02bcf92c9",
+        "id": "bd94702c31513387",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01.startHere.md",
+            "file": "docs/01.startHere.md",
             "mode": "source"
           }
         }
@@ -28,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "14e06b96932525e4",
+    "id": "78523bfd60081c29",
     "type": "split",
     "children": [
       {
-        "id": "2668f6f686a67ccf",
+        "id": "a64c952b7467b70c",
         "type": "tabs",
         "children": [
           {
-            "id": "d156241e4181306d",
+            "id": "e7cac71423977663",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +34,7 @@
             }
           },
           {
-            "id": "87fe390a5c4556d3",
+            "id": "a37b7d8367b8d454",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,20 +55,20 @@
     "width": 300
   },
   "right": {
-    "id": "66e6ad01666223af",
+    "id": "7e9c59c1aa177c1e",
     "type": "split",
     "children": [
       {
-        "id": "7213f96de4393daf",
+        "id": "a514dc0149750d41",
         "type": "tabs",
         "children": [
           {
-            "id": "27d8ab48c04fe506",
+            "id": "5b6eda8105a84e8c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01.startHere.md",
+                "file": "docs/01.startHere.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,14 +86,8 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7bbd14f02bcf92c9",
+  "active": "bd94702c31513387",
   "lastOpenFiles": [
-    "01.startHere.md",
-    "siteBuilding.md.md",
-    "img/photo.jpg",
-    "static/img/photo.jpg",
-    "contentRoadMap.md",
-    "cont.md",
-    "Untitled.md"
+    "docs/01.startHere.md"
   ]
 }

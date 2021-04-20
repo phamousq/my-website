@@ -138,7 +138,7 @@ module.exports = {
           routeBasePath: '/',
           showLastUpdateTime: true,
           include: ['**/*.md', '**/*.mdx'],
-          editUrl:'https://github.com/phamousq/my-website/blob/master',
+          // editUrl:'https://github.com/phamousq/my-website/blob/master',
         },
         blog: false,
         theme: {
